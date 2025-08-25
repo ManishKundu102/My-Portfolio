@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 document.getElementById("btn").addEventListener("click", function () {
   const link = document.createElement("a");
-  link.href = "resume.pdf"; 
-  link.download = "Manish_Kundu_Resume.pdf"; 
+  link.href = "Manish_Resume.pdf"; 
+  link.download = "Manish_Resume.pdf"; 
   document.body.appendChild(link); 
   link.click();
   document.body.removeChild(link);
@@ -27,4 +27,5 @@ document.getElementById("btn").addEventListener("click", function () {
 document.getElementById("githubBtn").addEventListener("click", function () {
   window.open("https://github.com/ManishKundu102", "_blank");
 });
+
 
